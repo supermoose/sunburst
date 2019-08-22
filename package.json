@@ -1,0 +1,33 @@
+{
+  "name": "vx-zoomable-sunburst-partition-example-with-animation",
+  "version": "0.0.0",
+  "description": "Ported from: \nhttps://bl.ocks.org/mbostock/4348373\n\nhttps://bl.ocks.org/mbostock/4063423\n\nhttps://bl.ocks.org/denjn5/e1cdbbe586ac31747b4a304f8f86efa5",
+  "keywords": [
+    "vx:example"
+  ],
+  "homepage": "https://codesandbox.io/s/v3x0yw11q5",
+  "main": "index.js",
+  "dependencies": {
+    "@vx/gradient": "0.0.153",
+    "@vx/group": "0.0.140",
+    "@vx/hierarchy": "0.0.141",
+    "@vx/shape": "0.0.142",
+    "d3-hierarchy": "1.1.5",
+    "d3-interpolate": "1.1.5",
+    "d3-scale": "1.0.6",
+    "d3-scale-chromatic": "1.2.0",
+    "d3-shape": "1.2.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-spring": "3.2.0-beta.10"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
